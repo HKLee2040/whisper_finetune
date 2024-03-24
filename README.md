@@ -1,4 +1,4 @@
-# 微调Whisper 語音識別模型
+# 微調Whisper 語音識別模型
 
 ![python version](https://img.shields.io/badge/python-3.8+-orange.svg)
 ![GitHub forks](https://img.shields.io/github/forks/yeyupiaoling/Whisper-Finetune)
