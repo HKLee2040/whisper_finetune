@@ -52,7 +52,7 @@ CUDA_VISIBLE_DEVICES=0 python finetune.py --base_model=openai/whisper-large-v2 -
 
 ## 合併模型
 
-微调完成之後會有兩個模型，Whisper基礎模型以及Lora模型，需要把兩個模型合併後才能繼續操作
+微調完成之後會有兩個模型，Whisper基礎模型以及Lora模型，需要把兩個模型合併後才能繼續操作
 
 ```shell
 python merge_lora.py --lora_model=output/whisper-tiny/checkpoint-best/ --output_dir=models/
