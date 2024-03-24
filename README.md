@@ -57,6 +57,7 @@ CUDA_VISIBLE_DEVICES=0 python finetune.py --base_model=openai/whisper-large-v2 -
 python merge_lora.py --lora_model=output/whisper-tiny/checkpoint-best/ --output_dir=models/
 ```
 
+## 評估模型
 <a name='評估模型'></a>
 
 
@@ -64,6 +65,7 @@ python merge_lora.py --lora_model=output/whisper-tiny/checkpoint-best/ --output_
 python evaluation.py --model_path=models/whisper-large-v2-finetune --metric=cer
 ```
 
+## 預測
 <a name='预测'></a>
 
 建議可以先用 Silero VAD 將音檔處理過, 可以有效地降低重複字詞的發生
