@@ -73,6 +73,12 @@ python evaluation.py --model_path=models/whisper-large-v2-finetune --metric=cer
 python infer.py --audio_path=dataset/test.wav --model_path=models/whisper-large-v2-finetune
 ```
 
+## 計算預測結果之 cer
+
+```shell
+python check_correct.py
+```
+
 ## 参考资料
 
 1. https://github.com/yeyupiaoling/Whisper-Finetune
