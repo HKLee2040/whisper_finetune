@@ -32,6 +32,7 @@
 4. `evaluation.py`：評估模型
 5. `infer.py`：使用模型預測特定音檔。
 
+## 數據準備
 <a name='準備數據'></a>
 
 執行 `aishell.py`
