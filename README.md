@@ -14,7 +14,6 @@
  - openai/whisper-medium
  - openai/whisper-large
  - openai/whisper-large-v2
- - openai/whisper-large-v3
 
 
 **使用環境：**
