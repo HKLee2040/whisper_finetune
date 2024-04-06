@@ -49,6 +49,7 @@ python -m opencc -c s2tw -i test.json -o test.json
 
 
 並將 dataset/audio/data_aishell/transcript/aishell_transcript_v0.8.txt 轉成繁體中文
+
 python -m opencc -c s2tw -i aishell_transcript_v0.8.txt -o aishell_transcript_v0.8_c.txt 
 
 
