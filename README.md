@@ -6,6 +6,11 @@
 ![GitHub](https://img.shields.io/github/license/yeyupiaoling/Whisper-Finetune)
 ![支持系统](https://img.shields.io/badge/支持系统-Win/Linux/MAC-9cf)
 
+## 前言
+本工作是基於 
+https://github.com/yeyupiaoling/Whisper-Finetune
+擴展繁體中文微調，並整合 pyannote 新增 speaker diarization 功能
+
 ## 支持模型
 
  - openai/whisper-tiny
