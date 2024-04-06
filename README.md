@@ -78,6 +78,9 @@ python evaluation.py --model_path=models/whisper-large-v2-finetune --metric=cer
 <a name='预测'></a>
 
 建議可以先用 Silero VAD 將音檔處理過, 可以有效地降低重複字詞的發生
+範例程式可參考 run_vad.py
+
+
 ```shell
 python infer.py --audio_path=dataset/test.wav --model_path=models/whisper-large-v2-finetune
 ```
