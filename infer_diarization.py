@@ -75,7 +75,7 @@ if args.language is not None:
 asr_result = infer_pipe(args.audio_path, return_timestamps=True, generate_kwargs=generate_kwargs)
 
 pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1",
-                                    use_auth_token="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")
+                                    use_auth_token="USER_TOKEN")
 diarization_result = pipeline(args.audio_path)
 final_result = diarize_text(asr_result["chunks"], diarization_result)
 
