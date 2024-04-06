@@ -91,7 +91,7 @@ python infer.py --audio_path=dataset/test.wav --model_path=models/whisper-large-
 
 如果要產生 speaker ID, 可以執行 infer_diarization.py
 ```shell
-python infer+diarization.py --audio_path=dataset/test.wav --model_path=models/whisper-large-v2-finetune
+python infer_diarization.py --audio_path=dataset/test.wav --model_path=models/whisper-large-v2-finetune
 ```
 
 
