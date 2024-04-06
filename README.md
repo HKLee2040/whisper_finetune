@@ -95,6 +95,16 @@ python infer.py --audio_path=dataset/test.wav --model_path=models/whisper-large-
 python infer_diarization.py --audio_path=dataset/test.wav --model_path=models/whisper-large-v2-finetune
 ```
 
+結果如下
+```shell
+[ 00:00:39.980 -->  00:00:42.780] SPEAKER_01 請許許慧珍主任代表受獎
+[ 00:00:42.780 -->  00:00:55.180] SPEAKER_01 接下來是臺南市同心園社會福利關懷協會辦理歸人早期療癒發展中心榮獲獎等請蘇碧珠執行長代表受獎請一起合影
+[ 00:00:55.180 -->  00:01:08.140] SPEAKER_01 那請社會局的羅局長也一起前長官回座女士長致辭恭賀獲獎的機構好謝謝趙副市長嶽業副市長方秘書長王副秘書長
+[ 00:01:08.140 -->  00:01:12.700] SPEAKER_05 優副秘書長以及臺南市政府各位同仁各位首長
+[ 00:01:12.700 -->  00:01:16.900] SPEAKER_05 很高興我們在出證會議上能夠頒獎
+[ 00:01:16.900 -->  00:01:21.100] SPEAKER_05 對於我們社會局所管理的各機構有在去年
+```
+
 
 ## 計算預測結果之 cer
 
