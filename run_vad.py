@@ -20,20 +20,8 @@ model, utils = torch.hub.load(repo_or_dir='snakers4/silero-vad',
  VADIterator,
  collect_chunks) = utils
 
-input_file = '20221025.wav'
-output_file = '20221025_vad.wav'
-
-#input_file = '20230606.wav'
-#output_file = '20230606_vad.wav'
-
-#input_file = '20230829.wav'
-#output_file = '20230829_vad.wav'
-
-#input_file = '20231225.wav'
-#output_file = '20231225_vad.wav'
-
-#input_file = '20240130.wav'
-#output_file = '20240130_vad.wav'
+input_file = '20221025.wav'   # input file path, name
+output_file = '20221025_vad.wav'   # output file path, name
 
 wav = read_audio(input_file, sampling_rate=SAMPLING_RATE)
 # get speech timestamps from full audio file
